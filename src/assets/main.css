@@ -1,0 +1,78 @@
+@import './base.css';
+
+#app {
+  max-width: 100%;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+/* @media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+} */
+.btn-icon-lg {
+  width: 40px !important;
+  height: 40px !important;
+}
+.custom-search-input {
+  position: relative;
+  align-items: stretch;
+  border-radius: 50px;
+  background-color: #f0f2f5;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+
+.v-btn {
+  text-transform: capitalize !important;
+}
+
+.v-application,
+.bg-transparent {
+  background-color: transparent !important;
+}
+
+.img-profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+.layout-container {
+  background-color: transparent !important;
+}
+
+.scroll-container {
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.sticky-container {
+  position: sticky;
+  padding: 10px;
+  z-index: 10;
+}
